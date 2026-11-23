@@ -1,0 +1,12 @@
+sudo apt install ros-jazzy-rclpy ros-jazzy-message-filters ros-jazzy-sensor-msgs \
+  ros-jazzy-geometry-msgs ros-jazzy-nav-msgs ros-jazzy-visualization-msgs \
+  ros-jazzy-std-msgs ros-jazzy-tf2-ros ros-jazzy-builtin-interfaces \
+  ros-jazzy-realsense2-camera
+
+pip install numpy opencv-python
+
+pip install mediapipe matplotlib plotly
+
+wget -O hand_landmarker.task https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
+
+source /opt/ros/jazzy/setup.bash
